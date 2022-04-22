@@ -1,5 +1,5 @@
 {
-  "name": "tap-summary",
+  "name": "@WealthWizardsEngineering/tap-summary",
   "version": "4.0.0",
   "description": "Summarize TAP",
   "main": "index.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zoubin/tap-summary.git"
+    "url": "git+https://github.com/WealthWizardsEngineering/tap-summary.git"
   },
   "keywords": [
     "TAP",
@@ -21,19 +21,19 @@
   "author": "zoubin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zoubin/tap-summary/issues"
+    "url": "https://github.com/WealthWizardsEngineering/tap-summary/issues"
   },
-  "homepage": "https://github.com/zoubin/tap-summary#readme",
+  "homepage": "https://github.com/WealthWizardsEngineering/tap-summary#readme",
   "dependencies": {
+    "@small-tech/tap-out": "^3.2.0",
     "ansi-escape": "^1.0.1",
-    "commander": "^2.9.0",
-    "figures": "^2.0.0",
-    "pretty-ms": "^3.0.0",
-    "tap-out": "^2.0.0"
+    "commander": "^9.2.0",
+    "figures": "^3.2.0",
+    "pretty-ms": "^7.0.1"
   },
   "devDependencies": {
-    "concat-stream": "^1.5.1",
+    "concat-stream": "^2.0.0",
     "eslint": "^4.0.0",
-    "tape": "^4.2.2"
+    "tape": "^5.5.3"
   }
 }

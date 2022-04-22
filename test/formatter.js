@@ -23,12 +23,7 @@ test('formatter, summary no ansi', function (t) {
     }))
 })
 
-test('formatter, fail', function (t) {
-  summarize.Formatter.prototype.prettifyError = function (assertion) {
-    var lines = assertion.error.raw.split('\n')
-    lines.pop()
-    return lines.join('\n')
-  }
+test.only('formatter, fail', function (t) {
   fs.createReadStream(fixtures('fail.tap'))
     .pipe(summarize({ duration: false, progress: false }))
     .pipe(concat({ encoding: 'string' }, function (s) {

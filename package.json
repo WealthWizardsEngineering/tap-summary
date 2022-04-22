@@ -1,5 +1,5 @@
 {
-  "name": "@WealthWizardsEngineering/tap-summary",
+  "name": "@wealthizardsengineering/tap-summary",
   "version": "4.0.1",
   "description": "Summarize TAP",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run lint && tape test/*.js | ./bin/cmd.js --no-progress",
     "lint": "eslint index.js test/*.js bin/*.js",
-    "release": "rm -rf node_modules && npm i --production && npm publish"
+    "release": "rm -rf node_modules && npm i --production && npm publish --access public"
   },
   "repository": {
     "type": "git",

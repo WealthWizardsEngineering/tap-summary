@@ -1,5 +1,5 @@
 # tap-summary
-[![version](https://img.shields.io/npm/v/tap-summary.svg)](https://www.npmjs.com/package/@WealthWizardsEngineering/tap-summary)
+[![NPM](https://nodei.co/npm/@wealthizardsengineering/tap-summary.png?compact=true)](https://nodei.co/npm/@wealthizardsengineering/tap-summary/)
 
 A reporter for TAP.
 
